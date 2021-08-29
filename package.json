@@ -1,0 +1,26 @@
+{
+  "name": "sunnyside-landing-page",
+  "version": "1.0.0",
+  "description": "A Basic Landing Page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azgardians/sunny-side.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azgardians/sunny-side/issues"
+  },
+  "homepage": "https://github.com/Azgardians/sunny-side#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "dependencies": {
+    "antd": "^4.16.13"
+  }
+}

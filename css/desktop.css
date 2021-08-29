@@ -1,0 +1,45 @@
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5rem; }
+  .nav-wrapper .nav-logo {
+    color: #ffffff;
+    font-weight: 600; }
+    @media (max-width: 500px) {
+      .nav-wrapper .nav-logo {
+        font-size: 18px; } }
+
+#section-header {
+  background-size: cover;
+  background-position: center;
+  background-position: center;
+  background-repeat: no-repeat; }
+  @media (max-width: 768px) {
+    #section-header {
+      background-image: url("../images/mobile/image-header.jpg"); } }
+  @media (min-height: 800px) {
+    #section-header {
+      height: 64vh; } }
+  @media (max-height: 800px) {
+    #section-header {
+      height: 80vh; } }
+  #section-header .content-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: calc(80vh - 400px); }
+    @media (max-height: 600px) {
+      #section-header .content-header {
+        top: calc(80vh - 370px); } }
+    @media (min-height: 800px) {
+      #section-header .content-header {
+        top: calc(64vh - 400px); } }
+    #section-header .content-header .title-header h1 {
+      font-size: 32px;
+      color: #ffffff;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 6px;
+      margin-bottom: 2rem; }
